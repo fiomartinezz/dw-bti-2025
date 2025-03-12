@@ -4,37 +4,114 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intro a las tablas</title>
+  <style>
+    .tablas{border: 3px solid pink;
+    width: 100%;}
+    td{border: 1px solid gray;
+      text-align: center;}
+  </style>
 </head>
 <body>
-  <table>
+  <table style="border: 3px solid">
     <thead>
       <tr>
-       <td>Columna 1</td>
-       <td>Columna 2</td>
-       <td>Columna 3</td>
+       <td style="border: 2px solid">Columna 1</td>
+       <td style="border: 2px solid">Columna 2</td>
+       <td style="border: 2px solid">Columna 3</td>
       </tr>
     </thead>
       <tbody>
         <tr>
-          <td>Dato 1.1</td>
-          <td>Dato 1.2</td>
-          <td>Dato 1.3</td>
+          <td style="border: 1px solid">Dato 1.1</td>
+          <td style="border: 1px solid">Dato 1.2</td>
+          <td style="border: 1px solid">Dato 1.3</td>
         </tr>
         <tr>
           <tr>
-            <td>Dato 2.1</td>
-            <td>Dato 2.2</td>
-            <td>Dato 2.3</td>
+            <td style="border: 1px solid">Dato 2.1</td>
+            <td style="border: 1px solid">Dato 2.2</td>
+            <td style="border: 1px solid">Dato 2.3</td>
           </tr>
           <tr>
             <tr>
-              <td>Dato 3.1</td>
-              <td>Dato 3.2</td>
-              <td>Dato 3.3</td>
+              <td style="border: 1px solid">Dato 3.1</td>
+              <td style="border: 1px solid">Dato 3.2</td>
+              <td style="border: 1px solid">Dato 3.3</td>
             </tr>
           </tr>
         </tr>
       </tbody>
+    </table>
+    <br>
+    <!-- Segunda Tabla -->
+    <table class="tablas">
+        <tr>
+          <td colspan="2">VS Code</td>
+          <td colspan="2">Atom</td>
+        </tr>
+      <tbody>
+        <tr>
+          <td>Ventajas</td>
+          <td>Desventajas</td>
+          <td>Ventajas</td>
+          <td>Desventajas</td>
+        </tr>
+        <tr>
+        <td>Ventaja 1</td>
+        <td>Desventaja 1</td>
+        <td>Ventaja 1</td>
+        <td>Desventaja 1</td>
+        </tr>
+        <tr>
+          <td>Ventaja 2</td>
+          <td>Desventaja 2</td>
+          <td>Ventaja 2</td>
+          <td>Desventaja 2</td>
+          </tr>
+          <tr>
+            <td>Ventaja 3</td>
+            <td>Desventaja 3</td>
+            <td>Ventaja 3</td>
+            <td>Desventaja 3</td>
+            </tr>
+      </tbody>
+    </table>
+    <br>
+    <table class="tablas">
+      <tr>
+        <th>
+          <td>VS CODE</td>
+          <td>ATOM</td>
+        </th>
+        <tbody>
+          <tr>
+            <td rowspan="3">VENTAJAS</td>
+            <td>Ventaja 1</td>
+            <td>Ventaja 1</td>
+          </tr>
+          <tr>
+            <td>Ventaja 2</td>
+            <td>Ventaja 2</td>
+          </tr>
+          <tr>
+            <td>Ventaja 3</td>
+            <td>Ventaja 3</td>
+          </tr>
+          <tr>
+            <td rowspan="3">DESVENTAJAS</td>
+            <td>Desventaja 1</td>
+            <td>Desventaja 1</td>
+          </tr>
+          <tr>
+            <td>Desventaja 2</td>
+            <td>Desventaja 2</td>
+          </tr>
+          <tr>
+            <td>Desventaja 3</td>
+            <td>Desventaja 3</td>
+          </tr>
+        </tbody>
+      </tr>
     </table>
 </body>
 </html>
