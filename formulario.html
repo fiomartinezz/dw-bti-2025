@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios en HTML</title>
+  <style>
+    table{
+      border: 1px solid black;
+      border-spacing: 10px;
+      width: 100%;
+      text-align: center;
+      background: #ffe6ff;
+      border-radius: 10px;
+    }
+    th{
+      color: white;
+      background-color: pink;
+      border: 1px solid pink;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+    td{
+      font-size: 14px;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    caption{
+      background-color: plum;
+      margin-bottom: 5px;
+      border-radius: 10px;
+      font-size: 28px;
+      color: #ffe5ef;
+    }
+  </style>
+</head>
+<body>
+    <table>
+      <caption>ETIQUETAS DE FORMULARIO EN HTML</caption>
+      <tr>
+        <th>Etiqueta</th>
+        <th>Descripción</th>
+        <th>Tipo</th>
+      </tr>
+      <tr>
+        <td>&lt;form&gt;</td>
+        <td>Etiqueta contenedora que define un formulario</td>
+        <td>Bloque</td>
+      </tr>
+      <tr>
+        <td>&lt;label&gt;</td>
+        <td>Indica la descipción de un campo</td>
+        <td>Línea</td>
+      </tr>
+      <tr>
+        <td>&lt;input&gt;</td>
+        <td>Define un campo de entrada, acompañado del atributo type</td>
+        <td>Línea</td>
+      </tr>
+      <tr>
+        <td>&lt;select&gt;</td>
+        <td>Define una lista desplegable</td>
+        <td>Línea</td>
+      </tr>
+      <tr>
+        <td>&lt;option&gt;</td>
+        <td>Define una opción de la lista desplegable</td>
+        <td>Línea</td>
+      </tr>
+      <tr>
+        <td>&lt;textarea&gt;</td>
+        <td>Define un campo de varias líneas de texto</td>
+        <td>Línea</td>
+      </tr>
+      <tr>
+        <td>&lt;button&gt;</td>
+        <td>Define un botón con función propia</td>
+        <td>Línea</td>
+      </tr>
+      <tr>
+        <td>&lt;fieldset&gt;</td>
+        <td>Permite agrupar los campos de un formulario</td>
+        <td>Bloque</td>
+      </tr>
+      <tr>
+        <td>&lt;legend&gt;</td>
+        <td>Crea un título para un grupo de campos</td>
+        <td>Línea</td>
+      </tr>
+    </table>
+    <hr>
+    <div style="text-align: center;">
+      <h1>Ejemplo de etiquetas en formularios</h1>
+    </div>
+    <!-- Textos -->
+     <!-- Label describe el nombre del campo -->
+     <label for="nombreUsuario">Nombre</label> 
+     <input type="text" id="nombreUsuario">
+
+     <!-- Email -->
+     <label for="emailUsuario">Email</label> 
+     <input type="email" id="emailUsuario" placeholder="usuario@dominio.com">
+
+     <!-- Password -->
+     <label for="passUsuario">Contraseña</label> 
+     <input type="password" id="passUsuario" placeholder="********">
+
+     <!-- Number -->
+     <label for="randomNumber">Número del 1 al 10</label> 
+     <input type="number" id="randomNumber" placeholder="Ingresar solo números">
+
+     <!-- Teléfono -->
+     <label for="telUsuario">Número Telefónico</label> 
+     <input type="tel" id="telUsuario" placeholder="Teléfono de contacto">
+
+     <!-- Fecha1 -->
+     <label for="fechaFactura1">Fecha 1</label> 
+     <input type="date" id="fechaFactura">
+
+     <!-- Fecha1 -->
+     <label for="fechaFactura2">Fecha 2</label> 
+     <input type="datetime" id="fechaFactura">
+
+     <!-- Fecha1 -->
+     <label for="fechaFactura3">Fecha 3</label> 
+     <input type="date-local" id="fechaFactura">     
+</body>
+</html>

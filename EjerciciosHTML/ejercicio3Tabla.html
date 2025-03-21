@@ -18,10 +18,11 @@
       caption{
         font-size: 26px;
         border: 1px solid black;
-        background-color: white;
+        background-color: #f0f0f0;
         color: black;
       }
       th{font-size: 20px; background-color: #f0f0f0;}
+      .color{background-color: #f0f0f0;}
     </style>
 </head>
 <body>
@@ -35,7 +36,7 @@
         <th><b><em>Principales Usos</em></b></th>
         </tr>
         <tr>
-            <td rowspan="2">Contenedores</td>
+            <td class="color" rowspan="2"><b>Contenedores</b></td>
             <td>&lt;div&gt;</td>
             <td>División</td>
             <td>Define una sección o contenedor genérico.</td>
@@ -46,6 +47,236 @@
             <td>Span</td>
             <td>Define un contenedor en línea genérico.</td>
             <td>Aplica estilos o scripts a fragmentos de página.</td>
+        </tr>
+        <tr>
+          <td class="color" rowspan="2"><b>Estructura del documento</b></td>
+          <td>&lt;body&gt;</td>
+          <td>Cuerpo del documento</td>
+          <td>Contiene el contenido visible de la página web.</td>
+          <td>Muestra el contenido principal de la página.</td>
+        </tr>
+        <tr>
+          <td>&lt;html&gt;</td>
+          <td>HTML</td>
+          <td>Elemento raíz de un documento HTML.</td>
+          <td>Contiene todo el contenido de la página web.</td>
+        </tr>
+        <tr>
+          <td class="color" rowspan="3"><b>Formularios</b></td>
+          <td>&lt;button&gt;</td>
+          <td>Botón</td>
+          <td>Define un botón interactivo.</td>
+          <td>Crea botones para enviar formularios, realizar acciones, etc.</td>
+        </tr>
+        <tr>
+          <td>&lt;form&gt;</td>
+          <td>Formulario</td>
+          <td>Define un formulario para la entrada de datos.</td>
+          <td>Crea formularios para recopilar información del usuario.</td>
+        </tr>
+        <tr>
+          <td>&lt;input&gt;</td>
+          <td>Entrada de formulario</td>
+          <td>Define diferentes tipos de campos de entrada.</td>
+          <td>Crea formularios para recopilar información del usuario.</td>
+        </tr>
+        <tr>
+          <td class="color" rowspan="3"><b>Listas</b></td>
+          <td>&lt;li&gt;</td>
+          <td>Elemento de lista</td>
+          <td>Define un elemento dentro de una lista.</td>
+          <td>Representa un elemento individual en una lista.</td>
+        </tr>
+        <tr>
+          <td>&lt;ol&gt;</td>
+          <td>Lista ordenada</td>
+          <td>Define una lista de elementos con orden específico.</td>
+          <td>Crea listas numeradas.</td>
+        </tr>
+        <tr>
+          <td>&lt;ul&gt;</td>
+          <td>Lista no ordenada</td>
+          <td>Define una lista de elementos sin orden específico.</td>
+          <td>Crea listas con viñetas.</td>
+        </tr>
+        <tr>
+          <td class="color" rowspan="7"><b>Metadatos</b></td>
+          <td>&lt;!DOCTYPE&gt;</td>
+          <td>Declaración de tipo de documento</td>
+          <td>Define el tipo de documento HTML.</td>
+          <td>Indica la versión de HTML que se está utilizando.</td>
+        </tr>
+        <tr>
+          <td>&lt;head&gt;</td>
+          <td>Encabezado del documento</td>
+          <td>Contiene metadatos e información sobre el documento.</td>
+          <td>Define el título de la página, enlaces a hojas de estilo, etc.</td>
+        </tr>
+        <tr>
+          <td>&lt;link&gt;</td>
+          <td>Enlace a recursos externos</td>
+          <td>Enlaza a hojas de estilo CSS, iconos, etc.</td>
+          <td>Conecta archivos externos a la página web.</td>
+        </tr>
+        <tr>
+          <td>&lt;meta&gt;</td>
+          <td>Metadatos</td>
+          <td>Proporciona metadatos sobre el documento HTML.</td>
+          <td>Define la codificación de caracteres, palabras clave, descripción, etc.</td>
+        </tr>
+        <tr>
+          <td>&lt;script&gt;</td>
+          <td>Script de clientes</td>
+          <td>Inserta o enlaza scripts de JavaScript.</td>
+          <td>Añade interactividad a la página web.</td>
+        </tr>
+        <tr>
+          <td>&lt;style&gt;</td>
+          <td>Estilos CSS internos</td>
+          <td>Define estilos CSS directamente en el documento HTML.</td>
+          <td>Aplica estilos a los elementos HTML.</td>
+        </tr>
+        <tr>
+          <td>&lt;title&gt;</td>
+          <td>Título del documento</td>
+          <td>Define el título de la página que se muestra en la barra de título del navegador.</td>
+          <td>Proporciona un título para la página web.</td>
+        </tr>
+        <tr>
+          <td class="color" rowspan="6"><b>Multimedia</b></td>
+          <td>&lt;audio&gt;</td>
+          <td>Audio</td>
+          <td>Inserta un reproductor de audio.</td>
+          <td>Reproduce audio en la página web.</td>
+        </tr>
+        <tr>
+          <td>&lt;canvas&gt;</td>
+          <td>Lienzo</td>
+          <td>Define un área para gráficos dinámicos.</td>
+          <td>Crea gráficos y animaciones con JavaScript.</td>
+        </tr>
+        <tr>
+          <td>&lt;iframe&gt;</td>
+          <td>Marco en línea</td>
+          <td>Inserta otro documento HTML dentro del documento actual.</td>
+          <td>Incrusta contenido de otras páginas web.</td>
+        </tr>
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>Imagen</td>
+          <td>Inserta una imagen en la página.</td>
+          <td>Muestra imágenes en la página web.</td>
+        </tr>
+        <tr>
+          <td>&lt;svg&gt;</td>
+          <td>Gráfico vectorial escalable</td>
+          <td>Inserta gráficos vectoriales.</td>
+          <td>Muestra gráficos vectoriales escalables.</td>
+        </tr>
+        <tr>
+          <td>&lt;video&gt;</td>
+          <td>Video</td>
+          <td>Inserta un reproductor de video.</td>
+          <td>Muestra videos en la página web.</td>
+        </tr>
+        <tr>
+          <td class="color" rowspan="7"><b>Secciones</b></td>
+          <td>&lt;article&gt;</td>
+          <td>Artículo</td>
+          <td>Define un artículo independiente.</td>
+          <td>Representa contenido independiente como un artículo de blog.</td>
+        </tr>
+        <tr>
+          <td>&lt;aside&gt;</td>
+          <td>Contenido secundario</td>
+          <td>Define contenido secundario o complementario.</td>
+          <td>Muestra barras laterales, anuncios, etc.</td>
+        </tr>
+        <tr>
+          <td>&lt;footer&gt;</td>
+          <td>Pie de página</td>
+          <td>Define el pie de página de una sección o página.</td>
+          <td>Contiene información de contacto, enlaces de pie de página, etc.</td>
+        </tr>
+        <tr>
+          <td>&lt;header&gt;</td>
+          <td>Encabezado de sección</td>
+          <td>Define el encabezado de una sección o página.</td>
+          <td>Contiene información introductora o de navegación.</td>
+        </tr>
+        <tr>
+          <td>&lt;main&gt;</td>
+          <td>Contenido principal</td>
+          <td>Define el contenido principal de la página.</td>
+          <td>Contiene el contenido central de la página.</td>
+        </tr>
+        <tr>
+          <td>&lt;nav&gt;</td>
+          <td>Navegación</td>
+          <td>Define una sección de enlaces de navegación.</td>
+          <td>Crea menús de navegación.</td>
+        </tr>
+        <tr>
+          <td>&lt;section</td>
+          <td>Sección</td>
+          <td>Define una sección genérica dentro de un documento.</td>
+          <td>Agrupa contenido relacionado temáticamente.</td>
+        </tr>
+        <tr>
+          <td class="color" rowspan="4"><b>Tablas</b></td>
+          <td>&lt;table&gt;</td>
+          <td>Tabla</td>
+          <td>Define una tabla de datos.</td>
+          <td>Muestra datos en filas y columnas.</td>
+        </tr>
+        <tr>
+          <td>&lt;td&gt;</td>
+          <td>Celda de tabla</td>
+          <td>Define una celda de datos dentro de una fila de tabla.</td>
+          <td>Contiene datos individuales en una tabla.</td>
+        </tr>
+        <tr>
+          <td>&lt;th&gt;</td>
+          <td>Celda de encabezado de tabla</td>
+          <td>Define una celda de encabezado dentro de una fila de tabla.</td>
+          <td>Contiene encabezados de columna o fila.</td>
+        </tr>
+        <tr>
+          <td>&lt;tr&gt;</td>
+          <td>Fila de tabla</td>
+          <td>Define una fila dentro de una tabla.</td>
+          <td>Agrupa celdas horizontalmente.</td>
+        </tr>
+        <tr>
+          <td class="color" rowspan="5"><b>Texto</b></td>
+          <td>&lt;a&gt;</td>
+          <td>Ancla</td>
+          <td>Crea un hipervículo a otra página o recurso.</td>
+          <td>Enlaza a otras páginas web, archivos, etc.</td>
+        </tr>
+        <tr>
+          <td>&lt;br&gt;</td>
+          <td>Salto de línea</td>
+          <td>Inserta un salto de línea.</td>
+          <td>Crea saltos de línea en el texto.</td>
+        </tr>
+        <tr>
+          <td>&lt;h1&gt; a &lt;6&gt;</td>
+          <td>Encabezados</td>
+          <td>Definen encabezados de diferentes niveles.</td>
+          <td>Estructuran el contenido en secciones jerárquicas.</td>
+        </tr>
+        <tr>
+          <td>&lt;hr&gt;</td>
+          <td>Línea horizontal</td>
+          <td>Inserta una línea horizontal.</td>
+          <td>Separa secciones de contenido.</td>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>Párrafo</td>
+          <td>Define un párrafo de texto.</td>
+          <td>Agrupa texto en párrafos.</td>
         </tr>
 </table> 
 </body>
