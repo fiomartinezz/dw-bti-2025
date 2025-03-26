@@ -117,12 +117,54 @@
      <label for="fechaFactura1">Fecha 1</label> 
      <input type="date" id="fechaFactura">
 
-     <!-- Fecha1 -->
+     <!-- Fecha2 -->
      <label for="fechaFactura2">Fecha 2</label> 
      <input type="datetime" id="fechaFactura">
 
-     <!-- Fecha1 -->
+     <!-- Fecha3 -->
      <label for="fechaFactura3">Fecha 3</label> 
-     <input type="date-local" id="fechaFactura">     
+     <input type="date-local" id="fechaFactura">  
+     
+     <!-- Radio -->
+     <label for="">Seleccionar sexo</label>
+     <input type="radio" value="M"> <span>Masculino</span>
+     <input type="radio" value="F"> <span>Femenino</span>
+
+     <!-- Select -->
+     <label for="">Estado civil</label>
+     <select name="estado_civil" id="estadoCivil">
+      <option value="0">-Seleccione-</option>
+      <option value="1">Casado</option>
+      <option value="2">Soltero</option>
+      <option value="3">Unión libre</option>
+      <option value="4">Separado</option>
+      <option value="5">Viudo</option>
+     </select>
+
+     <!--Select Múltiple  -->
+     <label for="">Formación</label>
+     <select for="formacion" id="" multiple>
+      <option value="1">Complementario</option>
+      <option value="2">Técnico</option>
+      <option value="3">Tecnólogo</option>
+      <option value="4">Especialización</option>
+     </select>
+
+     <!-- Checkbox -->
+     <label for="">Nivel de estudio</label>
+     <input type="checkbox" value="nivelMedio"><span>Nivel Medio</span>
+     <input type="checkbox" value="licenciatura"><span>Licenciatura</span>
+     <input type="checkbox" value="magister"><span>Magister</span>
+     <input type="checkbox" value="doctorado"><span>Doctorado</span>
+
+     <!-- File -->
+     <br>
+     <label for="">Foto</label>
+     <input type="file">
+
+     <!-- textarea -->
+     <br>
+     <label for="comentario">Comentarios</label>
+     <textarea name="comentarios" id="comentario" rows="3" placeholder="Si no sabe, no comente..."></textarea>
 </body>
 </html>
