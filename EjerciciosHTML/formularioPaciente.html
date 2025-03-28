@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table{
+      width: 100%;
+      background-color: whitesmoke;
+    }
+    caption{
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: pink;
+    }
+    input.tb1{
+      width: 95%;
+      font-size: 18px;
+      padding: 10px;
+    }
+    td.datoSolicitado{
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px;
+      width: 20%;
+    }
+    textarea.tb2{
+      width: 95%;
+      font-size: 18px;
+      padding: 10px;
+    }
+    input.btn{
+      width: 150px;
+      height: 35px;
+      font-size: 20px;
+      color: white;
+      background-color: pink;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+    <div>
+     <table>
+      <caption>DATOS PERSONALES DEL PACIENTE</caption>
+      <tr>
+        <td class="datoSolicitado"> <label for="">DNI:</label></td>
+        <td><input type="text" placeholder="Ingrese su DNI" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Foto:</label></td>
+        <td><input type="file" placeholder="Ingrese su foto de DNI" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Nombres:</label></td>
+        <td><input type="text" placeholder="Ingrese sus Nombres" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Apellidos:</label></td>
+        <td><input type="text" placeholder="Ingrese sus Apellidos" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Fecha de Nacimiento:</label></td>
+        <td><input type="date" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Sexo:</label></td>
+        <td><select>
+          <option value="0">Seleccione</option>
+          <option value="1">Masculino</option>
+          <option value="2">Femenino</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Nombre del Representante:</label></td>
+        <td><input type="text" placeholder="Ingrese el Nombre del Representante" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Teléfonos:</label></td>
+        <td><input type="tel" class="tb1" placeholder="Teléfono de Contacto"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Sala:</label></td>
+        <td><select>
+          <option value="0">Seleccione</option>
+          <option value="1">Emergencia</option>
+          <option value="2">Sala A</option>
+          <option value="3">Laboratorio</option>
+          <option value="4">Rayos x</option>
+          <option value="5">Hospitalización</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Dirección:</label></td>
+        <td><textarea name="" id="" placeholder="Calle y número de casa, ciudad y barrio." class="tb2"></textarea></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">País:</label></td>
+        <td><select>
+          <option value="0">Seleccione</option>
+          <option value="1">Colombia</option>
+          <option value="2">Venezuela</option>
+          <option value="3">Ecuador</option>
+          <option value="4">Perú</option>
+          <option value="5">Panamá</option>
+          <option value="6">Brasil</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Departamento:</label></td>
+        <td><input type="text" placeholder="Ingrese su Departamento" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Provincia:</label></td>
+        <td><input type="text" placeholder="Ingrese su Provincia" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Distrito:</label></td>
+        <td><input type="text" placeholder="Ingrese su Distrito" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Estado civil:</label></td>
+        <td><select>
+         <option value="0">Seleccione</option>
+         <option value="1">Casado</option>
+         <option value="2">Soltero</option>
+         <option value="3">Unión libre</option>
+         <option value="4">Separado</option>
+         <option value="5">Viudo</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Emergencia:</label></td>
+        <td><input type="tel" placeholder="Ingrese un Nro. Telefónico"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Grupo Sanguíneo:</label></td>
+        <td><select>
+         <option value="0">Seleccione</option>
+         <option value="1">A+</option>
+         <option value="2">A-</option>
+         <option value="3">B+</option>
+         <option value="4">B-</option>
+         <option value="5">AB+</option>
+         <option value="6">AB-</option>
+         <option value="7">O+</option>
+         <option value="8">O-</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">VIH:</label></td>
+        <td><select>
+          <option value="0">Seleccione</option>
+          <option value="1">Si</option>
+          <option value="2">No</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Ocupación:</label></td>
+        <td><input type="text" placeholder="Ingrese su Ocupación" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Peso:</label></td>
+        <td><input type="text" placeholder="Ingrese su Peso en Kg." class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Talla:</label></td>
+        <td><input type="text" placeholder="Ingrese su Talla" class="tb1"></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Alérgico:</label></td>
+        <td><textarea name="" id="" placeholder="Ingrese a qué es Alérgico" class="tb2"></textarea></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Medicamento Que Toma Actualmente:</label></td>
+        <td><textarea name="" id="" placeholder="Ingrese el nombre del Medicamento" class="tb2"></textarea></td>
+      </tr>
+      <tr>
+        <td class="datoSolicitado"> <label for="">Enfermedad Que Tiene:</label></td>
+        <td><textarea name="" id="" placeholder="Ingrese la Enfermedad que Posee" class="tb2"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div style="text-align: center;">
+        <input type="submit" value="Registrar" class="btn">
+        <input type="reset" value="Limpiar" class="btn">
+          </div>
+        </td>
+      </tr>
+     </table>
+    </div>
+</body>
+</html>
