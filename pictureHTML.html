@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PICTURE HTML</title>
+</head>
+<body>
+  <h1>ETIQUETA PICTURE</h1>
+  <hr>
+  <p>La etiqueta picture se utiliza como un contenedor donde se indica al navegador que imagen utilizar. En su interior, se puede establecer varias etiquetas <em>source</em> donde vamos a proporcionar posibles opciones del cual elegir.</p>
+  <h2>EJEMPLO DE PICTURE</h2>
+  <picture>
+    <source srcset="image/paisaje-HD.jpg" media="(width > 900px)">
+    <source srcset="image/paisaje-1K.jpg" media="(width > 1920px)">
+    <source srcset="image/paisaje-2K.jpg" media="(width > 2560px)">
+    <source srcset="image/paisaje-4K.jpg" media="(width > 3840px)">
+    <img src="image/paisaje-VGA.jpg" alt="Paisaje esotérico color fucsia pasión">
+  </picture>
+</body>
+</html>
